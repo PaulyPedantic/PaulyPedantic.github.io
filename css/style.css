@@ -1,0 +1,168 @@
+body {
+	padding-top: 50px;
+	color: #fff;
+	background-color:#333;
+	text-shadow: 0 1px 3px rgba(200, 200, 200, .3);
+}
+
+.intro {
+	margin: 0;
+	padding-left: 18%;
+	padding-right: 18%;
+	padding-top: 140px;
+	height: 100vh;
+	text-align: center;
+}
+
+.intro h1 {
+	font-size: 4em;
+}
+
+.bg-img-section {
+	background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .55)), url("../img/BG.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+}
+
+.no-img-section {
+	background-color:#333;
+}
+
+@media (min-width:768px) {
+	.navFix > li {
+		display: inline-block;
+	}
+	.navFix > li + li {
+		margin-left: 20px;
+	}
+	.navFix > li > a {
+		padding-right: 0;
+		padding-left: 0;
+		color: #fff;
+		/* IE8 	proofing */
+		color: rgba(255, 255, 255, .75);
+		border-bottom: 2px solid transparent;
+	}
+	.navFix > li > a:hover,
+	.navFix > li > a:focus {
+		background-color: transparent;
+		border-bottom-color: #a9a9a9;
+		border-bottom-color: rgba(255, 255, 255, .25);
+	}
+	.navFix > .active > a,
+	.navFix > .active > a:hover,
+	.navFix > .active > a:focus {
+		color: #fff;
+		border-bottom-color: #fff;
+	}
+	.navFix {
+		background-color: rgba(0, 0, 0);
+		border: none;
+		font-size: 16px;
+		border-radius: 0px;
+		margin: 0;
+		padding-left: 4%;
+		padding-right: 2%;
+		text-align: right;
+	}
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: transparent;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.section {
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+
+.sectionHead {}
+
+
+/*Set social media buttons to branded colors, darken by 10% on hover*/
+
+#linkedIn {
+	background-color: #0077b5;
+	color: #FFF;
+	border: none;
+}
+
+#linkedIn:hover {
+	background-color: #005380;
+}
+
+#twitter {
+	background-color: #55acee;
+	color: #FFF;
+	border: none;
+}
+
+#twitter:hover {
+	background-color: #2e99ea;
+}
+
+#github {
+	background-color: #666;
+	color: #fff;
+	border: none;
+}
+
+#github:hover {
+	background-color: #4d4d4d;
+}
+
+#footer {
+	background-color: #222;
+	height: 50px;
+	font-size: 0.8em;
+	color: #ccc;
+	padding-top: 20px;
+}
+
+@media (max-height: 450px) {
+	.fullHeight {
+		padding-top: 70px;
+	}
+}
+
+@media (max-height: 350px) {
+	.fullHeight {
+		padding-top: 50px;
+	}
+}
+
+@media (min-height: 700px) {
+	.fullHeight {
+		padding-top: 200px;
+	}
+}
+
+@media (max-width: 1020px) {
+	.intro {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.intro h1 {
+		font-size: 3em;
+	}
+}
+
+@media (max-width: 768px) {
+	.skillHead {
+		text-align: left;
+		padding-left: 25%;
+	}
+}
+
+#contact {
+	height: 93vh;
+}
